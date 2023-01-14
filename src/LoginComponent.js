@@ -24,7 +24,7 @@ export default function LoginComponent(props) {
 useEffect(() => {
   const getproductdata = async () => {
     try {
-      const data = await axios.get("http://localhost:9000/student/agent");
+      const data = await axios.get("http://45.90.109.11:9000/student/agent");
     
       setPtoduct (data.data.id);
      
