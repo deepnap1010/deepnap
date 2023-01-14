@@ -27,7 +27,7 @@ export default function Button() {
     
       const getproductdata=async()=>{
         try{
-          const data=await axios.get("http://localhost:9000/student/agent");
+          const data=await axios.get("http://45.90.109.11:9000/student/agent");
           data.data.map((data)=>(
             console.log(data.name)
           ))
@@ -59,7 +59,7 @@ export default function Button() {
     
         axios({
           method: 'post',
-          url: 'http://localhost:9000/student/agent',
+          url: 'http://45.90.109.11:9000/student/agent',
           data: {
             name:inputdata.name,
             email:inputdata.email,
@@ -111,7 +111,7 @@ const  createDlete=()=> {
   setDelet(true);
   axios({
     method: 'delete',
-    url: `http://localhost:9000/student/agent/${id}`,
+    url: `http://45.90.109.11:9000/student/agent/${id}`,
    })
     .then(function (response) {
       console.log(response);
@@ -207,7 +207,7 @@ const  createDlete=()=> {
                     
                           axios({
                             method: 'delete',
-                            url: `http://localhost:9000/student/agent/${item._id}`,
+                            url: `http://45.90.109.11:9000/student/agent/${item._id}`,
                            })
                             .then(function (response) {
                               console.log(response);
@@ -386,7 +386,7 @@ const  createDlete=()=> {
           onClick={()=>{
             axios({
               method: 'put',
-              url: `http://localhost:9000/student/agent/${data._id}`,
+              url: `http://45.90.109.11:9000/student/agent/${data._id}`,
               data: {
                 name: data.name,
                 email: data.email,
