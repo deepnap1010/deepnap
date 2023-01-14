@@ -1,0 +1,30 @@
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+
+
+.card-body{
+    padding: 1rem 2rem;
+}
+
+.card-body h3{
+color: #ffc312;
+
+}
+
+
+.input:focus{
+    outline: 0;
+    box-shadow: 0;
+}
+
+.row a{
+    color: white;
+    text-align: right;
+}
+
+.form-check{
+    color: white;
+}

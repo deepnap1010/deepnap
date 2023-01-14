@@ -1,0 +1,18 @@
+.maincontainer{
+    width: 30vh;
+}
+
+  .textarea {
+    border: 1px solid #a9a9a9;
+    border-radius: 5;
+    padding: 10;
+    margin: 20px 0;
+    min-height: 200px;
+    width: 100;
+  }
+  .button {
+    border: 1px solid #a9a9a9;
+    border-radius: 5;
+    width: 300;
+    padding: 10;
+  }

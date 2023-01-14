@@ -1,0 +1,91 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px sol;
+   width: 90%;
+  }
+  
+  #customers td, #customers th {
+  
+   width: 5%;
+   padding: 8px;
+    width: auto;
+  }
+ 
+  #cstname {
+    height: 50px;
+    border-radius: 22px;
+  }
+   
+  #customer tr> td:not(:first-of-type){
+    text-align: center;
+    width: 2%;
+  }
+
+  #btnright{
+   position:absolute;
+   top:70vh;
+   left:50vw;
+  }
+  /* #customers tr:nth-child(even){background-color: #6ab6fc;} */
+
+  #customers tr:hover {background-color: #ddd;}
+  /* #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #678ef8;
+    color: white;
+  } */
+
+
+  
+/*   
+  
+  
+  
+  
+  
+
+  
+  
+  .fa-check{
+    font-size: 1.3rem;
+    color: green;
+  }
+  .fa-times{
+    font-size:1.3rem;
+    color: red;
+  }
+  
+  
+  #basic, #standard,  #gold, #diamond,  #platinum{
+  background-color: #084af3;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  }
+  
+  
+  #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10  {
+    background-color: #084af3;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    padding: 8px;
+    margin: 2px;
+    border: none;
+  }
+  
+  
+  
+  
+  
+  
+  #customers > tr:not(:first-of-type) > td:not(:first-of-type)  {
+    padding: none;
+  } */
