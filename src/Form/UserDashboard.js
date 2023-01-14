@@ -50,7 +50,7 @@ export default function UserDashboard(props) {
   useEffect(() => {
     const getproductdata = async () => {
       try {
-        const data = await axios.get(`http://localhost:9000/student/agent/customer/${_id}`);
+        const data = await axios.get(`http://45.90.109.11:9000/student/agent/customer/${_id}`);
       
         setProduct(data.data);
       } catch (e) {
@@ -184,7 +184,7 @@ export default function UserDashboard(props) {
 //   console.log("reach")
 //    axios({
 //      method: "post",
-//      url: `http://localhost:9000/student/customer/${_id}`,
+//      url: `http://45.90.109.11:9000/student/customer/${_id}`,
 //    data: {
 //        name: inputdata.name,
 //        email: inputdata.email,
@@ -216,7 +216,7 @@ export default function UserDashboard(props) {
 
 //    axios({
 //      method: 'put',
-//      url: `http://localhost:9000/student/customer/${id}`,
+//      url: `http://45.90.109.11:9000/student/customer/${id}`,
 //      data: {
 //        name: data.name,
 //        email: data.email,
@@ -249,7 +249,7 @@ export default function UserDashboard(props) {
 
 //    axios({
 //      method: 'delete',
-//      url: `http://localhost:9000/student/customer/${id}`,
+//      url: `http://45.90.109.11:9000/student/customer/${id}`,
 //     })
 //      .then(function (response) {
 //        console.log(response);
@@ -301,7 +301,7 @@ export default function UserDashboard(props) {
                                 setDelet(item._id)
                                 axios({
                                   method: 'delete',
-                                  url: `http://localhost:9000/student/customer/${item._id}`,
+                                  url: `http://45.90.109.11:9000/student/customer/${item._id}`,
                                  })
                                   .then(function (response) {
                                     console.log(response);
