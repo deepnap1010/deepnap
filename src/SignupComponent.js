@@ -53,7 +53,7 @@ export default function SignupComponent(props) {
   function createPost() {
     axios({
       method: "post",
-      url: "http://localhost:9000/student/agent",
+      url: "http://45.90.109.11:9000/student/agent",
       data: {
         name: formvalue.name,
         email: formvalue.email,
@@ -156,8 +156,7 @@ export default function SignupComponent(props) {
                          >
   <option selected>Department</option>
   <option value="Admin">Admin
-  
-  </option>
+    </option>
   <option value="Sales">Sales</option>
   <option value="Agent">Agent</option>
 </select>

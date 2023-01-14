@@ -68,7 +68,7 @@ useEffect(() => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "http://localhost:9000/student/login",
+      url: "http://45.90.109.11:9000/student/login",
       data: {
         email: forvalue.email,
         password: forvalue.password,
