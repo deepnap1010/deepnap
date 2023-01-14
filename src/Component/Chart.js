@@ -28,7 +28,7 @@ export default function Chart() {
   useEffect(() => {
     const getproductdata = async () => {
       try {
-        const data = await axios.get(`http://localhost:9000/student/agent/customer`);
+        const data = await axios.get(`http://45.90.109.11:9000/student/agent/customer`);
       
         setProduct(data.data);
         console.log(data);
