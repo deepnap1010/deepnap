@@ -492,7 +492,7 @@ function createPost () {
   console.log("reach")
    axios({
      method: "post",
-     url: `http://localhost:9000/student/customer/${_id}`,
+     url: `http://45.90.109.11:9000/student/customer/${_id}`,
    data: {
        name: inputdata.name +" "+inputdata.lname,
        email: inputdata.email,
